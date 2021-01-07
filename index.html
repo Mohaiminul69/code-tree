@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css"
+    />
+    <!-- Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <title>CodeTree</title>
+  </head>
+  <body>
+    <nav id="header" class="main-nav">
+      <div class="header container">
+        <img src="img/logo.png" class="logo" />
+
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li>
+              <a
+                class="current"
+                href="index.html"
+                target="_blank"
+                data-after="Home"
+                >Home</a
+              >
+            </li>
+            <li class="dropdown">
+              <a
+                class="dropbtn"
+                href="about.html"
+                target="_blank"
+                data-after="Software"
+                >Software</a
+              >
+              <div class="dropdown-content">
+                <a
+                  target="_blank"
+                  href="https://codetreebd.com/pos%20&%20inventory"
+                  >Pos & Inventory</a
+                >
+                <a
+                  target="_blank"
+                  href="https://codetreebd.com/school%20management"
+                  >School & Management</a
+                >
+              </div>
+            </li>
+            <li class="dropdown">
+              <a
+                class="dropbtn"
+                href="about.html"
+                target="_blank"
+                data-after="Services"
+                >Services</a
+              >
+              <div class="dropdown-content">
+                <a
+                  target="_blank"
+                  href="https://codetreebd.com/webDesign&Development"
+                  >Web Design & Development</a
+                >
+                <a target="_blank" href="https://codetreebd.com/appdevelopment"
+                  >App Development</a
+                >
+                <a target="_blank" href="https://codetreebd.com/graphicdesign"
+                  >Graphic Design</a
+                >
+                <a
+                  target="_blank"
+                  href="https://codetreebd.com/digitalmarketing"
+                  >Digital Marketing</a
+                >
+                <a target="_blank" href="https://codetreebd.com/ux/uidesign"
+                  >UI/UX Design</a
+                >
+                <a target="_blank" href="https://codetreebd.com/ux/uidesign"
+                  >Domain and Hosting</a
+                >
+                <a target="_blank" href="https://codetreebd.com/ux/uidesign"
+                  >Bulk SMS</a
+                >
+              </div>
+            </li>
+            <li>
+              <a href="portfolio.html" target="_blank" data-after="Portfolio"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.codetreebd.com/news"
+                target="_blank"
+                data-after="News"
+                >News</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.codetreebd.com/about"
+                target="_blank"
+                data-after="About"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.codetreebd.com/team"
+                target="_blank"
+                data-after="Team"
+                >Team</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.codetreebd.com/contact/main"
+                target="_blank"
+                data-after="Contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <div id="banner">
+      <div class="container">
+        <div class="banner-container">
+          <div
+            class="banner-content"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            <h1>WE CODE BETTER <span class="primary-color">LIFE</span></h1>
+            <p>
+              The Best Place for Software, Website, Mobile Application & Digital
+              Marketing Solution in Bangladesh
+            </p>
+            <a
+              href="https://www.facebook.com/codetreebd/"
+              target="_blank"
+              class="btn btn-transparent"
+              >Follow Us On Facebook</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="player">
+      <video
+        class="player__video viewer"
+        src="./img/video.mp4"
+        loop
+        autoplay
+        muted
+      ></video>
+    </div>
+
+    <section id="about" class="py-3">
+      <div class="container" data-aos="fade-up" data-aos-duration="1200">
+        <div class="about-header">
+          <h1 class="l-heading uppercase">Why choose us?</h1>
+          <p>
+            Your business depends on your IT systems. We’re confident that we
+            are the only computer support, or IT consulting compnay that
+            provides these benefits to your business
+          </p>
+        </div>
+        <div class="about-cards py-1">
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-desktop fa-3x text-center"></i>
+            </div>
+            <div class="card-content">
+              <div class="card-title">
+                <h2>01</h2>
+                <h2>Easy to use</h2>
+              </div>
+              <div class="card-text">
+                <p>
+                  We build pretty complex tools and this allows us to take
+                  designs and turn them into functional quickly and easily.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-sliders-h fa-3x text-center"></i>
+            </div>
+            <div class="card-content">
+              <div class="card-title">
+                <h2>02</h2>
+                <h2>Efficient Design</h2>
+              </div>
+              <div class="card-text">
+                <p>
+                  Build your perfect design with our expert designers. Modify &
+                  choose from a vast amount of different designs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-cogs fa-3x text-center"></i>
+            </div>
+            <div class="card-content">
+              <div class="card-title">
+                <h2>03</h2>
+                <h2>Customizability</h2>
+              </div>
+              <div class="card-text">
+                <p>
+                  Our services are very flexible. We will modify your design to
+                  your heart's desire & Customize your site by your specific
+                  needs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-ruler-combined fa-3x text-center"></i>
+            </div>
+            <div class="card-content">
+              <div class="card-title">
+                <h2>04</h2>
+                <h2>Fast and Responsive</h2>
+              </div>
+              <div class="card-text">
+                <p>
+                  Our services are very flexible. We will modify your design to
+                  your heart's desire & Customize your site by your specific
+                  needs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-code fa-3x text-center"></i>
+            </div>
+            <div class="card-content">
+              <div class="card-title">
+                <h2>05</h2>
+                <h2>Clean Code</h2>
+              </div>
+              <div class="card-text">
+                <p>
+                  Our services are very flexible. We will modify your design to
+                  your heart's desire & Customize your site by your specific
+                  needs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <i class="fas fa-headphones-alt fa-3x text-center"></i>
+            </div>
+            <div class="card-content">
+              <div class="card-title">
+                <h2>06</h2>
+                <h2>24/7 Support</h2>
+              </div>
+              <div class="card-text">
+                <p>
+                  Our services are very flexible. We will modify your design to
+                  your heart's desire & Customize your site by your specific
+                  needs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="py-4">
+      <div class="container" data-aos="fade-up" data-aos-duration="1200">
+        <div class="features-container">
+          <div class="features-header py-1">
+            <h1 class="l-heading text-center uppercase">Awesome Featuress</h1>
+            <p class="text-center">
+              With unlimited features that we offer, we promise it's possible to
+              make everything that was impossible for you
+            </p>
+          </div>
+          <div class="features-cards about-cards">
+            <div class="card">
+              <div class="card-icon">
+                <i class="fas fa-gem fa-3x"></i>
+              </div>
+              <div class="card-content">
+                <div>
+                  <h2>UI/UX Design</h2>
+                </div>
+                <div class="card-text">
+                  <p>
+                    Designing attractive UI/UX designs for creating compelling
+                    user experiences.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon">
+                <i class="fas fa-mobile-alt fa-3x"></i>
+              </div>
+              <div class="card-content">
+                <div>
+                  <h2>App Development</h2>
+                </div>
+                <div class="card-text">
+                  <p>
+                    Developing Innovative mobile apps for Android & iOS, where
+                    we enjoy to meet complex requirements.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon">
+                <i class="fas fa-globe fa-3x"></i>
+              </div>
+              <div class="card-content">
+                <div>
+                  <h2>Web Design & Development</h2>
+                </div>
+                <div class="card-text">
+                  <p>
+                    Building user friendly and feature rich web applications by
+                    following latest web trends.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon">
+                <i class="fas fa-rocket fa-3x"></i>
+              </div>
+              <div class="card-content">
+                <div>
+                  <h2>Software Development</h2>
+                </div>
+                <div class="card-text">
+                  <p>
+                    Improving the search visibility to increase quality &
+                    quantity of traffic from search engine.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon">
+                <i class="fas fa-pen-nib fa-3x"></i>
+              </div>
+              <div class="card-content">
+                <div>
+                  <h2>Graphic Design</h2>
+                </div>
+                <div class="card-text">
+                  <p>
+                    Providing unique and creative design ideas to promote your
+                    business.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-icon">
+                <i class="fas fa-chart-line fa-3x"></i>
+              </div>
+              <div class="card-content">
+                <div>
+                  <h2>Digital Marketing</h2>
+                </div>
+                <div class="card-text">
+                  <p>
+                    To assist your business one step ahead we are offering
+                    complete digital marketing services.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Divider -->
+    <!-- Divider -->
+    <!-- Divider -->
+    <section id="divider-section">
+      <div class="container">
+        <div class="divider">
+          <h2>Find Us On</h2>
+          <ul class="list-social">
+            <li>
+              <a href="https://www.facebook.com/codetreebd" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/codetreebd/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/codetreebd/"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UC8Bp6MdAH60dbZLetJrxX6w?itct=CB0Q6p4EIhMItry35Pzf5QIVB-9YCh0tCgv2&csn=1C7IXa62C-eD1d8PiOulgAU&wlfg=true&fbclid=IwAR2t5FE7EM6M-GkT8MbN6eax98_ShO2gZS0HZZfBMMtxDnR5lscolvIT4ZQ&app=desktop"
+                target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.google.com.bd/maps/place/CODETREE/@23.8723842,90.3950506,17z/data=!3m1!4b1!4m5!3m4!1s0x3755c43c8cbbd0b1:0x4f462768a10fb1d5!8m2!3d23.8745965!4d90.3957931?hl=en&authuser=0"
+                target="_blank"
+                ><i class="fab fa-google"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- <h2>Our Clients</h2> -->
+    <!-- Divider -->
+    <!-- Divider -->
+    <!-- Divider -->
+
+    <!-- <section id="portfolio" class="py-4">
+    </section> -->
+
+    <section id="client" class="py-3">
+      <div class="container" data-aos="fade-up" data-aos-duration="1200">
+        <div class="client-container">
+          <div class="client-header py-1">
+            <h1 class="l-heading uppercase">Trusted Since 2017</h1>
+            <p>Clients we work with.</p>
+          </div>
+          <div class="client-content-background">
+            <div class="client-content">
+              <div class="glide" id="glide_5">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide">
+                      <div class="card-wraper">
+                        <div class="card">
+                          <img src="./img/Jimiao-Educaion.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/Jimiao-Educaion.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/Jimiao-Educaion.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/Jimiao-Educaion.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/Jimiao-Educaion.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/Jimiao-Educaion.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/Jimiao-Educaion.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/Jimiao-Educaion.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/Jimiao-Educaion.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/Jimiao-Educaion.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/Jimiao-Educaion.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/Jimiao-Educaion.jpg" alt="" />
+                        </div>
+                      </div>
+                    </li>
+                    <li class="glide__slide">
+                      <div class="card-wraper">
+                        <div class="card">
+                          <img src="./img/king_brand_cement.png" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/king_brand_cement.png" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/king_brand_cement.png" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/king_brand_cement.png" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/king_brand_cement.png" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/king_brand_cement.png" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/king_brand_cement.png" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/king_brand_cement.png" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/king_brand_cement.png" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/king_brand_cement.png" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/king_brand_cement.png" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/king_brand_cement.png" alt="" />
+                        </div>
+                      </div>
+                    </li>
+                    <li class="glide__slide">
+                      <div class="card-wraper">
+                        <div class="card">
+                          <img src="./img/puritee.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/puritee.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/puritee.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/puritee.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/puritee.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/puritee.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/puritee.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/puritee.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/puritee.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/puritee.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/puritee.jpg" alt="" />
+                        </div>
+                        <div class="card">
+                          <img src="./img/puritee.jpg" alt="" />
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="section testimonial" id="testimonial">
+      <div
+        class="testimonial__container"
+        data-aos="fade-up"
+        data-aos-duration="1200"
+      >
+        <div class="glide" id="glide_3">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="testimonial__box">
+                  <div class="client__image">
+                    <img src="img/pexels-stefan-stefancik-91227.jpg" alt="" />
+                  </div>
+                  <p>
+                    <i class="fas fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque cupiditate omnis ipsum impedit nam necessitatibus
+                    porro blanditiis, commodi consequatur debitis.
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="client__info">
+                    <h3>John Smith</h3>
+                    <span>Founder at Primark</span>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="testimonial__box">
+                  <div class="client__image">
+                    <img src="img/pexels-stefan-stefancik-91227.jpg" alt="" />
+                  </div>
+                  <p>
+                    <i class="fas fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque cupiditate omnis ipsum impedit nam necessitatibus
+                    porro blanditiis, commodi consequatur debitis.
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="client__info">
+                    <h3>John Smith</h3>
+                    <span>Founder at Primark</span>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="testimonial__box">
+                  <div class="client__image">
+                    <img src="img/pexels-stefan-stefancik-91227.jpg" alt="" />
+                  </div>
+                  <p>
+                    <i class="fas fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque cupiditate omnis ipsum impedit nam necessitatibus
+                    porro blanditiis, commodi consequatur debitis.
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="client__info">
+                    <h3>John Smith</h3>
+                    <span>Founder at Primark</span>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="testimonial__box">
+                  <div class="client__image">
+                    <img src="img/pexels-stefan-stefancik-91227.jpg" alt="" />
+                  </div>
+                  <p>
+                    <i class="fas fa-quote-left"></i>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque cupiditate omnis ipsum impedit nam necessitatibus
+                    porro blanditiis, commodi consequatur debitis.
+                    <i class="fas fa-quote-right"></i>
+                  </p>
+                  <div class="client__info">
+                    <h3>John Smith</h3>
+                    <span>Founder at Primark</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+            <button class="glide__bullet" data-glide-dir="=2"></button>
+            <button class="glide__bullet" data-glide-dir="=3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial -->
+
+    <!-- News -->
+    <div id="news" class="news__container">
+      <div class="container" data-aos="fade-up" data-aos-duration="1200">
+        <div class="news-container-background">
+          <div class="news-header">
+            <h1>News</h1>
+            <p>Stay connected & get the latest news about us.</p>
+          </div>
+          <div class="glide" id="glide_4">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                  <div class="new__card">
+                    <div class="card__header">
+                      <img src="img/IMG_20191126_231148_578.jpg" alt="" />
+                      <a class="btn btn-primary" href="http://">Read More</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="new__card">
+                    <div class="card__header">
+                      <img src="img/IMG_20191126_231148_5278.jpg" alt="" />
+                      <a class="btn btn-primary" href="http://">Read More</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="new__card">
+                    <div class="card__header">
+                      <img src="img/IMG_20191126_231148_578 (1).jpg" alt="" />
+                      <a class="btn btn-primary" href="http://">Read More</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="glide__slide">
+                  <div class="new__card">
+                    <div class="card__header">
+                      <img
+                        src="img/67330368_1318692371619618_1405425994898079744_o.jpg"
+                        alt=""
+                      />
+                      <a class="btn btn-primary" href="http://">Read More</a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="news__footer">
+            <a
+              href="https://codetreebd.com/news"
+              target="_blank"
+              class="btn btn-primary"
+              >See All</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- News -->
+
+    <section id="share-idea">
+      <div class="share-idea-container">
+        <div
+          class="share-idea-content py-1"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
+          <h1 class="l-heading uppercase">SHARE YOUR IDEAS WITH US</h1>
+          <p>
+            Software Development, Website Design, Mobile Application & Digital
+            Marketing Solution
+          </p>
+          <a class="btn btn-transparent">Call Us +88 0171-007-0606</a>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer" class="py-4">
+      <div class="container" data-aos="fade-up" data-aos-duration="1200">
+        <div class="footer-content py-1">
+          <div class="content-left">
+            <h2>WE'D LOVE TO HEAR FROM YOU</h2>
+            <p>
+              Whether you have a question about features, trials, pricing, need
+              a demo, or anything else, our team is ready to answer all your
+              questions.
+            </p>
+            <ul class="list-contact">
+              <li>
+                <i class="far fa-envelope"></i>
+                codetreebd@gmail.com, info@codetreebd.com
+              </li>
+              <li><i class="fas fa-mobile-alt"></i> +88 0171-007-0606</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                House 06 (Ground Floor), Road 30, Sector 07, Uttara Model Town,
+                Dhaka-1230, Bangladesh .
+              </li>
+            </ul>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d383.5001730608996!2d90.39703586023532!3d23.872270087924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c43c8cbbd0b1%3A0x4f462768a10fb1d5!2sCODETREE!5e0!3m2!1sen!2sbd!4v1609406985370!5m2!1sen!2sbd"
+              id="map"
+              frameborder="0"
+              style="border: 0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>
+          <div class="content-right">
+            <h3>SAY SOMETHING</h3>
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Write your message"
+            ></textarea>
+            <button type="submit" class="btn">Send</button>
+          </div>
+        </div>
+        <div class="footer-end">
+          <p>&copy;2017 - <span id="year"></span> Copyright CodeTree</p>
+          <ul class="list-social">
+            <li>
+              <a href="https://www.facebook.com/codetreebd" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/codetreebd/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/company/codetreebd/"
+                target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UC8Bp6MdAH60dbZLetJrxX6w?itct=CB0Q6p4EIhMItry35Pzf5QIVB-9YCh0tCgv2&csn=1C7IXa62C-eD1d8PiOulgAU&wlfg=true&fbclid=IwAR2t5FE7EM6M-GkT8MbN6eax98_ShO2gZS0HZZfBMMtxDnR5lscolvIT4ZQ&app=desktop"
+                target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+          <ul class="list-col">
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1zkfGahtDfXb2EHZRzAwd-iD5rUBIqR_A/view"
+                target="_blank"
+                >Terms & Conditions</a
+              >
+            </li>
+            <li>
+              <a href="https://www.facebook.com/codetreebd" target="_blank"
+                >CodeTree</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.google.com.bd/maps/place/CodeTree/@23.8746026,90.3935298,17z/data=!3m1!4b1!4m5!3m4!1s0x3755c43c8cbbd0b1:0x4f462768a10fb1d5!8m2!3d23.8745965!4d90.3957931?hl=en&authuser=0"
+                target="_blank"
+                >Location</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Glidejs -->
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <!-- Animate On Scroll AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
